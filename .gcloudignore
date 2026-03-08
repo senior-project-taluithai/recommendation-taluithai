@@ -1,0 +1,24 @@
+# Large data directories (not needed for Docker build)
+data/
+data.bak/
+embeddings/
+embeddings.bak/
+models.bak/
+mlruns/
+mlflow.db
+mlflow.db.*
+__pycache__/
+*.pyc
+.env
+.git/
+.venv/
+venv/
+node_modules/
+
+# Only models/query_tower_traced.pt is needed (copied by Dockerfile)
+# Exclude other large model files
+models/gnn_best.pt
+models/two_tower_best.pt
+models/two_tower_final.pt
+models/item_tower.pt
+models/query_tower.pt
