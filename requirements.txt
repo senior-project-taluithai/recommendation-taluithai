@@ -1,0 +1,32 @@
+# Core
+torch>=2.1.0
+torchvision>=0.16.0
+
+# Text encoder
+sentence-transformers>=2.7.0
+transformers>=4.40.0
+
+# GNN
+torch-geometric>=2.5.0
+
+# Data
+pymongo>=4.6.0
+psycopg2-binary>=2.9.9
+pandas>=2.2.0
+pyarrow>=15.0.0
+numpy>=1.26.0
+
+# Vector DB
+qdrant-client>=1.8.0
+
+# Serving (for later)
+fastapi>=0.110.0
+uvicorn>=0.29.0
+redis>=5.0.0
+
+# Training utils
+tqdm>=4.66.0
+wandb>=0.16.0
+scikit-learn>=1.4.0
+mlflow>=2.12.0
+python-dotenv>=1.0.0

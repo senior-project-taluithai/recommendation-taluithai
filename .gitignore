@@ -1,0 +1,33 @@
+# Data (extracted from DBs)
+data/
+
+# Training outputs
+models/
+embeddings/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# MLflow
+mlflow.db
+mlflow.db.*
+mlruns/
+
+# Backups
+*.bak/
+data.bak/
+embeddings.bak/
+models.bak/
+
+# W&B
+wandb/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store

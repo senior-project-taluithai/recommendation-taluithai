@@ -1,0 +1,27 @@
+# Ignore training data, models (except query_tower_traced), and dev files
+data/
+embeddings/
+mlruns/
+mlflow.db*
+.venv/
+__pycache__/
+*.pyc
+wandb/
+.git/
+.env
+
+# Only include query_tower_traced.pt (2.7MB), exclude other large models
+models/gnn_best.pt
+models/two_tower_best.pt
+models/two_tower_final.pt
+models/query_tower.pt
+models/item_tower.pt
+
+# Training scripts (not needed for serving)
+scripts/
+src/
+test_quick.py
+config.py
+requirements.txt
+*.md
+LICENSE
