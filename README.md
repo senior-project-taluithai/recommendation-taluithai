@@ -211,11 +211,11 @@ recommendation-taluithai/
 Override defaults via env vars:
 
 ```bash
-export PG_HOST=34.87.52.21
-export PG_PASSWORD="uRv0|RVoo!<1y1}X<%G9W&-NcLw(H15y"
+export PG_HOST=text
+export PG_PASSWORD="text"
 export MONGO_URI="mongodb://..."
-export QDRANT_HOST=db-taluithai.oswinfalk.xyz
-export QDRANT_PORT=6333
+export QDRANT_HOST=text
+export QDRANT_PORT=text
 ```
 
 ## Requirements
